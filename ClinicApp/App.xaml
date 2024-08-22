@@ -1,0 +1,70 @@
+﻿<Application x:Class="ClinicApp.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:DataType="clr-namespace:System;assembly=System.Runtime"
+             xmlns:local="clr-namespace:ClinicApp"
+             StartupUri="LoginScreen.xaml">
+    <Application.Resources>
+        <FontFamily x:Key="Default Font Family">
+            Georgia            
+        </FontFamily>
+        <DataType:Double x:Key="Defaut Font Size">
+            15
+        </DataType:Double>
+        <Thickness x:Key="Default Thickness">
+            3
+        </Thickness>
+        <Brush x:Key="Black Color">
+            Black
+        </Brush>
+        <Brush x:Key="Default Color">
+            #FF7CDE
+        </Brush>
+        <Style x:Key="Login Button Style">
+            <Setter Property="ItemsControl.Background" Value="#FF7CDE"></Setter>
+            <Setter Property="ItemsControl.BorderThickness" Value="3"></Setter>
+            <Setter Property="ItemsControl.FontSize" Value="15"></Setter>
+            <Setter Property="ItemsControl.FontFamily" Value="Georgia"></Setter>
+            <Setter Property="ItemsControl.Foreground" Value="White"></Setter>
+            <Setter Property="ItemsControl.BorderBrush" Value="#F26EC5"></Setter>
+            <Setter Property="ItemsControl.Margin" Value="100,20,40,10"></Setter>
+            <Setter Property="ItemsControl.Width" Value="110"></Setter>
+            <Setter Property="ItemsControl.Height" Value="40"></Setter>
+        </Style>
+        <Style x:Key="Close Button Style">
+            <Setter Property="ItemsControl.Height" Value="35"/>
+            <Setter Property="ItemsControl.Width" Value="120"/>
+            <Setter Property="ItemsControl.Margin" Value="700,10,0,20"/>
+            <Setter Property="ItemsControl.Background" Value="White"/>
+            <Setter Property="ItemsControl.FontSize" Value="15"/>
+        </Style>
+        <Style x:Key="Save Button Style">
+            <Setter Property="ItemsControl.Height" Value="35"/>
+            <Setter Property="ItemsControl.Width" Value="120"/>
+            <Setter Property="ItemsControl.Margin" Value="60,10,40,20"/>
+            <Setter Property="ItemsControl.Background" Value="White"/>
+            <Setter Property="ItemsControl.FontSize" Value="15"/>
+        </Style>
+        <Style TargetType="Image">
+            <Setter Property="Source" Value="D:\Icons\cross.png"/>
+            <Setter Property="Margin" Value="0,3,20,0"/>
+        </Style>
+        <Style x:Key="Text Block Close Button">
+            <Setter Property="ItemsControl.Margin" Value="0,5,15,5"/>
+            <Setter Property="ItemsControl.FontSize" Value="15"/>
+        </Style>
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="FontFamily" Value="{StaticResource Default Font Family}"/>
+            <Setter Property="FontSize" Value="{StaticResource Defaut Font Size}"/>
+            <Setter Property="Width" Value="160"/>
+            <Setter Property="Height" Value="25"/>
+            <Setter Property="Margin" Value="15,40,0,20"/>
+            <Style.Triggers>
+                <Trigger Property="ItemsControl.IsEnabled" Value="True">
+                    <Setter Property="BorderThickness" Value="2"/>
+                    <Setter Property="BorderBrush" Value="#F26EC5"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Application.Resources>
+</Application>

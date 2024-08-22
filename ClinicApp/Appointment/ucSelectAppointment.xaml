@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="UI.Appointment.SelectAppointment"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:UI.Appointment"
+             mc:Ignorable="d"
+             Background="White" Height="200" Width="450">
+    <Grid>
+        <WrapPanel>
+            <Label Height="62" Width="203" Margin="30,60,10,10">
+                <WrapPanel Width="181">
+                    <Image Source="D:\Icons\schedule.png" Height="35" Width="40" Margin="5"></Image>
+                    <TextBlock FontSize="16" Height="32" HorizontalAlignment="Center" VerticalAlignment="Center" Width="128">Appointment</TextBlock>
+                </WrapPanel>
+            </Label>
+            <DatePicker x:Name="Date_Appointment" Height="60" Width="180" Margin="0,60,10,10" SelectedDateChanged="Date_Appointment_SelectedDateChanged"/>
+            
+        </WrapPanel>
+    </Grid>
+</UserControl>

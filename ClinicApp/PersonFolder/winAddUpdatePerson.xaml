@@ -1,0 +1,49 @@
+﻿<Window x:Class="UI.PersonFolder.winAddUpdatePerson"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UI.PersonFolder"
+        mc:Ignorable="d"
+        Height="590" 
+        Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Viewbox>
+        <WrapPanel Height="550" Width="800">
+            <local:ucPersonSearch Width="533" 
+                                  Margin="100,5,5,5"
+                                  Height="90"
+                                  x:Name="ucPersonSearch1"/>
+            <local:AddUpdatePerson Width="750"
+                                   Margin="20,0,20,5"
+                                   x:Name="AddUpdatePerson1"/>
+            <StackPanel Orientation="Horizontal"
+                        Margin="15">
+                <Button Width="100"
+                        Height="30"
+                        Margin="430,5,30,5"
+                        Background="White" 
+                        Name="Btn_Cancel"
+                        Click="Btn_Cancel_Click"
+                        IsCancel="True">
+                    <TextBlock FontSize="{StaticResource Defaut Font Size}"
+                               FontFamily="{StaticResource Default Font Family}"
+                               >Cancel
+                    </TextBlock>
+                </Button>
+                <Button Width="100"
+                        Height="30"
+                        Margin="40,5,100,5"
+                        Background="White"
+                        Name="Btn_Save" 
+                        Click="Btn_Save_Click"
+                        IsDefault="True">
+                    <TextBlock FontSize="{StaticResource Defaut Font Size}"
+                   FontFamily="{StaticResource Default Font Family}"
+                   >Save
+                    </TextBlock>
+                </Button>
+            </StackPanel>
+        </WrapPanel>
+    </Viewbox>
+</Window>

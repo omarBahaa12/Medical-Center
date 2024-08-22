@@ -1,0 +1,214 @@
+﻿<UserControl x:Class="UI.Appointment.ucUpdateAppointmentStatus"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:UI.Appointment"
+             mc:Ignorable="d" 
+             d:DesignHeight="570" 
+             d:DesignWidth="420"
+             Background="White">
+    <Grid>
+            <WrapPanel>
+    <Label Height="60" 
+           Width="175"
+           Margin="15,10,5,5">
+        <StackPanel Orientation="Horizontal">
+            <Image Source="D:\Icons\id.png" 
+                   Height="38" 
+                   Width="38"
+                   Margin="4"></Image>
+            <TextBlock FontFamily="{StaticResource Default Font Family}"
+                       FontSize="{StaticResource Defaut Font Size}"
+                       Width="121"
+                       TextAlignment="Left"
+                       Margin="7">Appointment ID</TextBlock>
+        </StackPanel>
+    </Label>
+    <Label Width="176"
+           Height="60"
+           Margin="15,10,5,5">
+        <StackPanel Orientation="Horizontal">
+
+            <TextBlock FontFamily="{StaticResource Default Font Family}"
+                       FontSize="{StaticResource Defaut Font Size}"
+                       Width="121"
+                       TextAlignment="Left"
+                       Margin="10" 
+                       x:Name="Txt_AppointmentID"></TextBlock>
+        </StackPanel>
+    </Label>
+    <Label Width="176"
+           Height="64"
+           Margin="15,10,5,5">
+
+        <StackPanel Orientation="Horizontal">
+            <Image Source="D:\Icons\doctor.png"
+                   Height="38" 
+                   Width="38"
+                   Margin="4">
+
+            </Image>
+            <TextBlock FontFamily="{StaticResource Default Font Family}"
+                       FontSize="{StaticResource Defaut Font Size}"
+                       Width="121"
+                       TextAlignment="Left"
+                       Margin="7">Doctor Name
+            </TextBlock>
+        </StackPanel>
+    </Label>
+    <Label Width="176"
+           Height="64"
+           Margin="15,10,5,5">
+        <StackPanel Orientation="Horizontal">
+
+            <TextBlock FontFamily="{StaticResource Default Font Family}"
+                       FontSize="{StaticResource Defaut Font Size}"
+                       Width="121"
+                       TextAlignment="Left"
+                       Margin="10" 
+                       x:Name="Txt_DoctorName">
+
+            </TextBlock>
+        </StackPanel>
+    </Label>
+    <Label Width="176"
+           Height="64"
+           Margin="15,10,5,5">
+        <StackPanel Orientation="Horizontal">
+            <Image Source="D:\Icons\client.png"
+                   Height="38" 
+                   Width="38"
+                   Margin="4">
+
+            </Image>
+            <TextBlock FontFamily="{StaticResource Default Font Family}"
+                       FontSize="{StaticResource Defaut Font Size}"
+                       Width="121"
+                       TextAlignment="Left"
+                       Margin="7">Patient Name
+            </TextBlock>
+        </StackPanel>
+    </Label>
+    <Label Width="176"
+           Height="64"
+           Margin="15,10,5,5">
+        <TextBlock FontFamily="{StaticResource Default Font Family}"
+                   FontSize="{StaticResource Defaut Font Size}"
+                   Width="128"
+                   TextAlignment="Left"
+                   x:Name="Txt_PatientName" 
+                   Height="40"/>
+    </Label>
+    <Label Width="176"
+           Height="64"
+           Margin="15,10,5,5">
+        <StackPanel Orientation="Horizontal">
+            <Image Source="D:\Icons\user.png"
+                   Height="38" 
+                   Width="38"
+                   Margin="4">
+
+            </Image>
+            <TextBlock FontFamily="{StaticResource Default Font Family}"
+                        FontSize="{StaticResource Defaut Font Size}"
+                        Width="121"
+                        TextAlignment="Left"
+                        Margin="7">User Name
+            </TextBlock>
+        </StackPanel>
+    </Label>
+    <Label Width="176"
+           Height="64"
+           Margin="15,10,5,5">
+        <TextBlock FontFamily="{StaticResource Default Font Family}"
+                    FontSize="{StaticResource Defaut Font Size}"
+                    Width="121"
+                    TextAlignment="Left"
+                    Margin="7"
+                   x:Name="Txt_UserName">
+        </TextBlock>
+    </Label>
+    <Label Width="189"
+           Height="64"
+           Margin="15,10,5,5">
+        <StackPanel Orientation="Horizontal">
+            <Image Source="D:\Icons\schedule.png"
+                   Height="38" 
+                   Width="38"
+                   Margin="4">
+
+            </Image>
+            <TextBlock FontFamily="{StaticResource Default Font Family}"
+                        FontSize="{StaticResource Defaut Font Size}"
+                        Width="125"
+                        TextAlignment="Left"
+                        Margin="7">Appointment Date
+            </TextBlock>
+        </StackPanel>
+    </Label>
+    <Label Width="186"
+           Height="64"
+           Margin="15,10,5,5">
+        <TextBlock FontFamily="{StaticResource Default Font Family}"
+                    FontSize="{StaticResource Defaut Font Size}"
+                    Width="176"
+                    TextAlignment="Left" 
+                   Height="49"
+                   x:Name="Txt_AppointmentDate"/>
+    </Label>
+    <Label Width="176"
+           Height="64"
+           Margin="15,10,5,5">
+        <StackPanel Orientation="Horizontal">
+            <Image Source="D:\Icons\clipboard.png"
+                   Height="38" 
+                   Width="38"
+                   Margin="4">
+
+            </Image>
+            <TextBlock FontFamily="{StaticResource Default Font Family}"
+                        FontSize="{StaticResource Defaut Font Size}"
+                        Width="121"
+                        TextAlignment="Left"
+                        Margin="12">Resrvation
+            </TextBlock>
+        </StackPanel>
+    </Label>
+    <Label Width="176"
+           Height="64"
+           Margin="15,10,5,5">
+        <TextBlock FontFamily="{StaticResource Default Font Family}"
+                    FontSize="{StaticResource Defaut Font Size}"
+                    Width="121"
+                    TextAlignment="Left"
+                    Margin="7"
+                   x:Name="Txt_Resrvation">
+        </TextBlock>
+    </Label>
+    <Label Width="176"
+           Height="64"
+           Margin="15,10,5,5">
+        <StackPanel Orientation="Horizontal">
+            <Image Source="D:\Icons\requirement.png"
+                   Height="38" 
+                   Width="38"
+                   Margin="4">
+
+            </Image>
+            <TextBlock FontFamily="{StaticResource Default Font Family}"
+                        FontSize="{StaticResource Defaut Font Size}"
+                        Width="121"
+                        TextAlignment="Left"
+                        Margin="15">Status
+            </TextBlock>
+        </StackPanel>
+    </Label>
+    <ComboBox Width="179" 
+              Height="50"
+              x:Name="Cb_Status">
+
+    </ComboBox>
+</WrapPanel>
+    </Grid>
+</UserControl>

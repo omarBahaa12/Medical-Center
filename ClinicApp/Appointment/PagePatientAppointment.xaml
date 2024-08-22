@@ -1,0 +1,18 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:UI.Appointment"
+      xmlns:PersonFolder="clr-namespace:UI.PersonFolder" x:Class="UI.Appointment.PagePatientAppointment"
+      mc:Ignorable="d"
+      Title="PagePatientAppointment"
+      Background="White" Width="914" Height="547">
+
+    <Grid Margin="0,0,5,15">
+
+        <PersonFolder:ucPersonSearch x:Name="ucPersonSearch1" HorizontalAlignment="Left" Margin="143,9,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.504,0.495"/>
+        <PersonFolder:AddUpdatePerson x:Name="AddUpdatePerson1" HorizontalAlignment="Left" Margin="74,128,0,0" VerticalAlignment="Top" Width="831"/>
+
+    </Grid>
+</Page>

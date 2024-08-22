@@ -1,0 +1,48 @@
+﻿<UserControl x:Class="UI.DoctorsFile.DoctorBySpecialization"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:UI.DoctorsFile"
+             mc:Ignorable="d" Height="160" Width="290"
+             Background="White">
+    <Grid>
+        <StackPanel Margin="0,0,0,22">
+            <WrapPanel>
+                <Label Width="61" 
+                       Height="26" 
+                       Margin="30,20,5,5"
+                       FontSize="10">
+                    <TextBlock Width="51" Height="17" >Reserve in</TextBlock>
+                </Label>
+                <ComboBox Width="120"
+                          Height="25"
+                          Margin="30,20,30,5" 
+                          FontFamily="{StaticResource Default Font Family}"
+                          FontSize="{StaticResource Defaut Font Size}"
+                          SelectedIndex="0"
+                          x:Name="Comb_Specialization" 
+                          SelectionChanged="Comb_Specialization_SelectionChanged">
+
+                </ComboBox>
+            </WrapPanel>
+            <WrapPanel>
+                <Label Width="74" 
+                       Height="21" 
+                       Margin="30,60,0,5" 
+                       FontSize="10">
+                    <TextBlock Width="60" Height="17" >Doctor Name</TextBlock>
+                </Label>
+                <ComboBox Width="120"
+                          Height="25"
+                          Margin="23,60,30,5" 
+                          FontFamily="{StaticResource Default Font Family}"
+                          FontSize="{StaticResource Defaut Font Size}"
+                          x:Name="Comb_Doctors" 
+                          SelectionChanged="Comb_Doctors_SelectionChanged">
+
+                </ComboBox>
+            </WrapPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>

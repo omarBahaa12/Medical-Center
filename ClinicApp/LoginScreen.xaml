@@ -1,0 +1,87 @@
+﻿<Window x:Class="UI.LoginScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UI"
+        mc:Ignorable="d"
+        Title="lOGIN" Height="560" Width="1000"
+        WindowStartupLocation="CenterScreen"
+        MaxWidth="1010"
+        MaxHeight="600"
+        MinHeight="560"
+        MinWidth="1000"
+        WindowStyle="ToolWindow">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="550">
+            </ColumnDefinition>
+            <ColumnDefinition>
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Viewbox>
+            <StackPanel Grid.Column="0" 
+                        Background="#FF7CDE" 
+                        Height="590" 
+                        Width="583">
+                <Image Source="D:\Projects\ClinicApp\ClinicApp\hospital.png" Height="250" Width="500" Margin="10,50,10,10"/>
+                <TextBlock TextAlignment="Center" 
+                           FontSize="40"
+                           FontStretch="Medium"
+                           FontStyle="Italic"
+                           FontWeight="Bold"
+                           Foreground="White"
+                           Margin="20,40,10,10"
+                           >Suez Clinic</TextBlock>
+            </StackPanel>
+        </Viewbox>
+        <StackPanel 
+                Grid.Column="1"
+                Margin="10,20">
+                <TextBlock Foreground="Black" 
+                           TextAlignment="Center" 
+                           FontSize="30" 
+                           FontStyle="Italic" 
+                           Margin="10,110,40,50">Login
+                </TextBlock>
+                <WrapPanel>
+                        <Label
+                        Foreground="{StaticResource Black Color}"                           
+                        FontSize="{StaticResource Defaut Font Size}" 
+                        FontStyle="Italic"
+                        Margin="30">
+                            User Name
+                        </Label>
+                        <TextBox
+                        BorderBrush="{StaticResource Black Color}"
+                        BorderThickness="{StaticResource Default Thickness}"
+                        Margin="30"
+                        Width="150"
+                        Height="30"
+                        FontSize="{StaticResource Defaut Font Size}">
+                        </TextBox>
+                    
+                        <Label
+                        Foreground="{StaticResource Black Color}"                           
+                        FontSize="{StaticResource Defaut Font Size}" 
+                        FontStyle="Italic"
+                        Margin="30,20">
+                            Password
+                        </Label>
+                        <TextBox
+                        BorderBrush="{StaticResource Black Color}"
+                        BorderThickness="{StaticResource Default Thickness}"
+                        Margin="40,30"
+                        Width="150"
+                        Height="30"
+                        FontSize="{StaticResource Defaut Font Size}">
+                        </TextBox>
+                </WrapPanel>
+            <Button
+                Style="{StaticResource Login Button Style}"
+                Content="Login"
+                Click="Btn_Login_Click">
+            </Button>
+            </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,188 @@
+﻿<UserControl x:Class="UI.PersonFolder.ucPersonInfo"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:UI.PersonFolder"
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="1030"
+             Background="White">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition ></ColumnDefinition>
+            <ColumnDefinition ></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+
+
+        <WrapPanel Grid.Column="0">
+            <Label Height="70" 
+                   Width="160" 
+                   Margin="20,40,10,30">
+                <WrapPanel>
+                    <Image Source="D:\Icons\label.png" Height="50" Width="70" Margin="5"></Image>
+                    <TextBlock FontFamily="{StaticResource Default Font Family}"
+                               FontSize="{StaticResource Defaut Font Size}"
+                               Margin="1,20,0,20"
+                               FontStyle="Italic"
+                               TextAlignment="Center"
+                               >
+                        FullName
+                    </TextBlock>
+                </WrapPanel>
+            </Label>
+            <Label Width="278" 
+                   Height="70"
+                   Margin="5,40,10,30"
+                   >
+                <WrapPanel>
+                    <TextBlock FontFamily="{StaticResource Default Font Family}"
+                               FontSize="{StaticResource Defaut Font Size}"
+                               Margin="30,20,40,20"
+                               FontStyle="Italic"
+                               TextAlignment="Center"
+                               x:Name="TextB_FullName">
+                    </TextBlock>
+                </WrapPanel>
+            </Label>
+            <Label Width="200" 
+                   Height="70"
+                   Margin="10,40,5,30">
+                <WrapPanel>
+                    <Image Source="D:\Icons\email.png" Height="40" Width="50" Margin="5"></Image>
+                    <TextBlock FontFamily="{StaticResource Default Font Family}"
+                               FontSize="{StaticResource Defaut Font Size}"
+                               Margin="13,20,10,20"
+                               FontStyle="Italic"
+                               TextAlignment="Center">Email
+                    </TextBlock>
+                </WrapPanel>
+            </Label>
+            <Label Width="275" 
+                   Height="70"
+                   Margin="5,40,10,30">
+                <WrapPanel>
+                    <TextBlock FontFamily="{StaticResource Default Font Family}"
+                               FontSize="{StaticResource Defaut Font Size}"
+                               Margin="30,20,30,20"
+                               FontStyle="Italic"
+                               TextAlignment="Center"
+                               x:Name="TextB_Email">
+                    </TextBlock>
+                </WrapPanel>
+            </Label>
+            <Label Height="70" 
+                   Width="160" 
+                   Margin="20,10,10,30">
+                <WrapPanel>
+                    <Image Source="D:\Icons\happy-birthday.png" Height="50" Width="60" Margin="0"></Image>
+                    <TextBlock FontFamily="{StaticResource Default Font Family}"
+                   FontSize="{StaticResource Defaut Font Size}"
+                   Margin="1,20,0,20"
+                   FontStyle="Italic"
+                   TextAlignment="Center">
+                    Date of birth
+                    </TextBlock>
+                </WrapPanel>
+            </Label>
+            <Label Width="207" 
+                   Height="70"
+                   Margin="15,10,10,30">
+                <WrapPanel>
+                    <TextBlock FontFamily="{StaticResource Default Font Family}"
+                   FontSize="{StaticResource Defaut Font Size}"
+                   Margin="30,20,40,20"
+                   FontStyle="Italic"
+                   TextAlignment="Center"
+                   x:Name="TextB_DateofBirth">
+                    </TextBlock>
+                </WrapPanel>
+            </Label>
+        </WrapPanel>
+        <WrapPanel Grid.Column="2">
+            <Label Width="200" 
+                   Height="70"
+                   Margin="20,40,5,30">
+                <WrapPanel>
+                    <Image Source="D:\Icons\phone-call.png" Height="40" Width="50" Margin="5"></Image>
+                    <TextBlock FontFamily="{StaticResource Default Font Family}"
+                               FontSize="{StaticResource Defaut Font Size}"
+                               Margin="13,20,10,20"
+                               FontStyle="Italic"
+                               TextAlignment="Center">Phone
+                    </TextBlock>
+                </WrapPanel>
+            </Label>
+            <Label Width="198" 
+                   Height="70"
+                   Margin="15,10,10,30">
+                <WrapPanel>
+                    <TextBlock FontFamily="{StaticResource Default Font Family}"
+                               FontSize="{StaticResource Defaut Font Size}"
+                               Margin="30,20,40,20"
+                               FontStyle="Italic"
+                               TextAlignment="Center"
+                               x:Name="TextB_Phone">
+                    </TextBlock>
+                </WrapPanel>
+            </Label>
+            <Label Height="70" 
+                   Width="160" 
+                   Margin="20,10,10,30">
+                <WrapPanel>
+                    <Image Source="D:\Icons\equality.png" Height="50" Width="60" Margin="0"></Image>
+                    <TextBlock FontFamily="{StaticResource Default Font Family}"
+                               FontSize="{StaticResource Defaut Font Size}"
+                               Margin="10,20,0,20"
+                               FontStyle="Italic"
+                               TextAlignment="Center">
+                            Gender
+                    </TextBlock>
+                </WrapPanel>
+            </Label>
+            <Label Width="160" 
+                   Height="70"
+                   Margin="15,10,10,30">
+                <WrapPanel>
+                    <TextBlock FontFamily="{StaticResource Default Font Family}"
+                               FontSize="{StaticResource Defaut Font Size}"
+                               Margin="30,20,40,20"
+                               FontStyle="Italic"
+                               TextAlignment="Center"
+                               x:Name="TextB_Gender">
+                    </TextBlock>
+                </WrapPanel>
+            </Label>
+            <Label Width="200" 
+                   Height="70"
+                   Margin="10,10,5,30"
+                   Grid.Column="1">
+                <WrapPanel>
+                    <Image Source="D:\Icons\location.png" Height="40" Width="50" Margin="5"></Image>
+                    <TextBlock FontFamily="{StaticResource Default Font Family}"
+                   FontSize="{StaticResource Defaut Font Size}"
+                   Margin="13,20,10,20"
+                   FontStyle="Italic"
+                   TextAlignment="Center">Address
+                    </TextBlock>
+                </WrapPanel>
+            </Label>
+            <Label Width="240" 
+                   Height="70"
+                   Margin="15,10,10,30"
+                   Grid.Column="1">
+                <WrapPanel>
+                    <TextBlock FontFamily="{StaticResource Default Font Family}"
+                   FontSize="{StaticResource Defaut Font Size}"
+                   Margin="30,20,40,20"
+                   FontStyle="Italic"
+                   TextAlignment="Center"
+                   x:Name="TextB_Address">
+                    </TextBlock>
+                </WrapPanel>
+            </Label>
+        </WrapPanel>
+    </Grid>
+</UserControl>

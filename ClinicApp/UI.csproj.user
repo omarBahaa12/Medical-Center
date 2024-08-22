@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Appointment\AppointmentInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Appointment\PagePatientAppointment.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Appointment\PageSelectAppointment.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Appointment\ucAppointmentInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Appointment\ucSelectAppointment.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Appointment\ucUpdateAppointmentStatus.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Appointment\UpdateAppointmentStatus.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Appointment\winAddOrUpdateAppointment.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DoctorsFile\ucDoctorBySpecialization.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DoctorsFile\ucDoctorInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DoctorsFile\ucDoctorSpecialization.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DoctorsFile\winAddorUpdateDoctors.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Main.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Payments\AddorUpdatePayment.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Payments\ucAddPayment.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Payments\ucPaymentInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PersonFolder\PatientInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PersonFolder\ucPersonInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PersonFolder\ucTabControlView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Users\ucAddUpdateUser.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Users\ucUserInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Users\winAddUpdateUser.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Appointment\AppointmentInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Appointment\PagePatientAppointment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Appointment\PageSelectAppointment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Appointment\ucAppointmentInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Appointment\ucSelectAppointment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Appointment\ucUpdateAppointmentStatus.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Appointment\UpdateAppointmentStatus.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Appointment\winAddOrUpdateAppointment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DoctorsFile\ucDoctorBySpecialization.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DoctorsFile\ucDoctorInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DoctorsFile\ucDoctorSpecialization.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DoctorsFile\winAddorUpdateDoctors.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LoginScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Main.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Payments\AddorUpdatePayment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Payments\ucAddPayment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Payments\ucPaymentInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PersonFolder\PatientInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PersonFolder\ucPersonInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PersonFolder\ucTabControlView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Users\ucAddUpdateUser.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Users\ucUserInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Users\winAddUpdateUser.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+D:\Projects\ClinicApp\Business\obj\Debug\net8.0-windows\Business.csproj.AssemblyReference.cache
+D:\Projects\ClinicApp\Business\obj\Debug\net8.0-windows\Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\ClinicApp\Business\obj\Debug\net8.0-windows\Business.AssemblyInfoInputs.cache
+D:\Projects\ClinicApp\Business\obj\Debug\net8.0-windows\Business.AssemblyInfo.cs
+D:\Projects\ClinicApp\Business\obj\Debug\net8.0-windows\Business.csproj.CoreCompileInputs.cache
+D:\Projects\ClinicApp\Business\bin\Debug\net8.0-windows\data\appsetting.json
+D:\Projects\ClinicApp\Business\bin\Debug\net8.0-windows\Business.deps.json
+D:\Projects\ClinicApp\Business\bin\Debug\net8.0-windows\Business.dll
+D:\Projects\ClinicApp\Business\bin\Debug\net8.0-windows\Business.pdb
+D:\Projects\ClinicApp\Business\bin\Debug\net8.0-windows\Data.dll
+D:\Projects\ClinicApp\Business\bin\Debug\net8.0-windows\Data.pdb
+D:\Projects\ClinicApp\Business\obj\Debug\net8.0-windows\Business.csproj.CopyComplete
+D:\Projects\ClinicApp\Business\obj\Debug\net8.0-windows\Business.dll
+D:\Projects\ClinicApp\Business\obj\Debug\net8.0-windows\refint\Business.dll
+D:\Projects\ClinicApp\Business\obj\Debug\net8.0-windows\Business.pdb
+D:\Projects\ClinicApp\Business\obj\Debug\net8.0-windows\ref\Business.dll

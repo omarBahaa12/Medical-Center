@@ -1,0 +1,38 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UI.Users"
+        xmlns:Person="clr-namespace:UI.PersonFolder" x:Class="UI.Users.winAddUpdateUser"
+        mc:Ignorable="d"
+        Title="winAddUpdateUser"
+        Height="690" 
+        Width="1000"
+        WindowStartupLocation="CenterScreen">
+    <WrapPanel>
+        <Person:ucPersonSearch HorizontalAlignment="Center"
+                               Margin="180,10,0,0" 
+                               VerticalAlignment="Top" 
+                               x:Name="ucPersonSearch1"/>
+        <Person:AddUpdatePerson Margin="120,10,0,0"
+                                x:Name="AddUpdatePerson1"/>
+        <local:ucAddUpdateUser Margin="80,5,30,10"
+                               x:Name="ucAddUpdateUser1"/>
+        <WrapPanel Width="400"
+                   Height="60"
+                   Margin="500,0,5,5">
+            <Button Style="{StaticResource Close Button Style}"
+                    Margin="30,10,20,10"
+                    Name="Close" Click="Close_Click">
+                Close
+            </Button>
+            <Button Style="{StaticResource Save Button Style}"
+                    Margin="10"
+                    Name="Save" Click="Save_Click">
+                Save
+            </Button>
+        </WrapPanel>
+    </WrapPanel>
+
+</Window>

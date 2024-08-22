@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "rVCRPjKhmGHl/JOYWKuw+pPXjDyAEWUIgbJr6hn6yH9EW89E/uuqn9C8BiUIc57izY0zcZQw7A/VwBv3IRmQ9Q==",
+  "success": false,
+  "projectFilePath": "D:\\Projects\\ClinicApp\\BusinessLogic\\BusinessLogic.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Data is not compatible with net8.0 (.NETCoreApp,Version=v8.0). Project Data supports: net8.0-windows7.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "Data",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
